@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,3 +25,40 @@ a{
     font-weight: bold;
     
 }
+
+.hero{
+    background-image: url(asset/bg-image-hero.png);
+    color: white;
+    height: 80vh;
+    background-size: cover;
+}
+
+.container{
+    max-width: 650px;
+    margin: auto;
+}
+
+
+h1 {
+    padding-top: 20%;
+}
+
+.articles-container{
+    display: flex;
+    gap: 40px;
+}
+
+.more{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    color:white;
+    display: block;
+    width: fit-content;
+    margin-top: 24px;
+}
+
+
+
+
+
